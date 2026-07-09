@@ -1,0 +1,36 @@
+# Vivado / Xilinx FPGA Build & Project Files
+*.Xil/
+*.jou
+*.log
+*.pb
+*.wdb
+*.vcd
+*.str
+*.dir/
+
+# Vivado Projects (if user opens repo in Vivado)
+*.xpr
+*.cache/
+*.hw/
+*.ip_user_files/
+*.sim/
+*.srcs/
+
+# Intermediate & Simulation Memory Dump Files
+*.hex
+!example_images/*.hex
+
+# Python Virtual Environments & Cache
+__pycache__/
+*.pyc
+.venv/
+venv/
+*.egg-info/
+
+# OS / Editor Files
+.DS_Store
+Thumbs.db
+*.swp
+*~
+.vscode/
+.idea/
